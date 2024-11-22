@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+#bottomBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.screen-size{
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas{
+    cursor: none;
+}
